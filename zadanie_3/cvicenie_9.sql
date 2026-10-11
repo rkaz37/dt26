@@ -13,4 +13,6 @@ BEGIN
     RAISE NOTICE '%', v_total2;
 END;
 $procedure$;
+
+DROP PROCEDURE get_customer_sales;
 CALL get_customer_sales('C001');

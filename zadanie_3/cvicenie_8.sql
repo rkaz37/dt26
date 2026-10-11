@@ -10,7 +10,7 @@ CREATE TABLE orders
     region VARCHAR(20) NOT NULL,
     category VARCHAR(50) NOT NULL,
     ship_mode VARCHAR(30) NOT NULL,
-    discount NUMERIC CHECK (discount = ROUND(discount, 2)) NOT NULL,
+    sales NUMERIC CHECK (sales = ROUND(sales, 2)) NOT NULL,
     profit NUMERIC CHECK (profit = ROUND(profit, 2)) NOT NULL
 );
 
