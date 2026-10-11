@@ -1,0 +1,1 @@
+EXPLAIN ANALYZE SELECT * FROM orders WHERE customer_id = 'C001';
