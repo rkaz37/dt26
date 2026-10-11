@@ -8,5 +8,3 @@ WITH RECURSIVE date_rec AS (
 
 )
 SELECT min_sale_date FROM date_rec ORDER BY min_sale_date ASC;
-
-SELECT MIN(sale_date) AS min_sale_date, MAX(sale_date) AS max_sale_date FROM flourmills_sales 
